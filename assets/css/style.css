@@ -1,6 +1,7 @@
 body {
   min-height: 2000px;
 }
+
 .jumbotron {
   padding-top: 12rem;
   background-color: #e2edff;
@@ -16,4 +17,10 @@ body {
 
 section {
   padding-top: 5rem;
+}
+
+.efek-zoom:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  transition: 0.5s;
 }
